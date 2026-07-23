@@ -30,7 +30,7 @@ metadata:
   namespace: beginner-troubleshooting
 spec:
   selector:
-    app: wrong-label
+    app: selector-demo
   ports:
     - name: http
       port: 80

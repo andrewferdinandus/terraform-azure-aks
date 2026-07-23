@@ -19,6 +19,6 @@ spec:
         workload: user
       containers:
         - name: nginx
-          image: nginx:this-tag-does-not-exist
+          image: nginx:1.27-alpine
           ports:
             - containerPort: 80
